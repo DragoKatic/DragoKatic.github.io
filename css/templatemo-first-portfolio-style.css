@@ -536,7 +536,12 @@ strong {
   height: 100%;
   pointer-events: none;
 }
-
+/*
+  @media screen and (min-width: 1600px)
+.hero-image {
+  margin-top: -100px;
+}
+*/
 
 /*---------------------------------------
   ABOUT              
