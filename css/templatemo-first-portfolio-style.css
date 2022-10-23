@@ -1203,8 +1203,12 @@ strong {
 }
 
 
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     .margin-top-35{
       margin-top: 35px;
     }
+}
+
+.hero-image {
+  padding: 25px;
 }
