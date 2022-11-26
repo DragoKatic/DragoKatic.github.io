@@ -1302,8 +1302,8 @@ strong {
 
 .img-spriter{
   display: block;
-  width: 130px; 
-  height: 16px;
+  width: 128px; 
+  height: 15px;
   margin: 5px auto 5px auto;
   vertical-align: sub;
   background: url(../images/spriter.gif) 0 0 no-repeat;
