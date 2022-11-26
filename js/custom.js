@@ -48,4 +48,4 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 //if(location.pathname=="/index.html") alert('hey!');
 //document.getElementById("alert").innerHTML = location.href;
 
-window.history.pushState('object or string', 'Title', '/drago-katic.html');
+//window.history.pushState('object or string', 'Title', '/drago-katic.html');
