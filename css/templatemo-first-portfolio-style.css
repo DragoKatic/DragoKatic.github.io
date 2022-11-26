@@ -1304,7 +1304,7 @@ strong {
   display: block;
   width: 128px; 
   height: 15px;
-  margin: 5px auto 5px auto;
+  margin: 6px auto 5px auto;
   vertical-align: sub;
   background: url(../images/spriter.gif) 0 0 no-repeat;
   /*background-size: 50%;*/
