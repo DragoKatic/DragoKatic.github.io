@@ -32,3 +32,20 @@
 
   // year in the footer
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+// Current URL: https://my-website.com/page_a
+//const nextURL = 'https://dragokatic.github.io/home';
+//const nextTitle = 'Drago Katić - Portfolio';
+//const nextState = { additionalInformation: 'Updated the URL with JS' };
+
+// This will create a new entry in the browser's history, without reloading
+//window.history.pushState(nextState, nextTitle, nextURL);
+
+// This will replace the current entry in the browser's history, without reloading
+//window.history.replaceState(nextState, nextTitle, nextURL);
+
+//if(location.pathname=="/index.html") alert('hey!');
+//document.getElementById("alert").innerHTML = location.href;
+
+window.history.pushState('object or string', 'Title', '/drago-katic.html');
