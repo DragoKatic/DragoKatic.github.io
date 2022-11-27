@@ -1297,7 +1297,12 @@ strong {
 
 .img-spinner{
   display: block;
+   width: 16px; 
+  height: 16px;
+margin-left: 13px;
   background: url(../images/spinner.gif) 0 0 no-repeat;
+background-size: 100%;
+  
 }
 
 .img-spriter{
@@ -1308,4 +1313,14 @@ strong {
   vertical-align: sub;
   background: url(../images/spriter.gif) 0 0 no-repeat;
   /*background-size: 50%;*/
+}
+
+@media screen and (max-width: 480px) {
+  .img-spriter{
+    margin: 3px auto 2px auto;
+  }
+
+  
+  
+
 }
