@@ -71,13 +71,15 @@ h6 {
 
 h1 {
   font-size: var(--h1-font-size);
-  letter-spacing: -3px;
+  /*letter-spacing: -3px;*/
+  letter-spacing: -2px;
 }
 
 h2 {
   font-size: var(--h2-font-size);
   color: var(--secondary-color);
-  letter-spacing: -3px;
+  /*letter-spacing: -3px;*/
+  letter-spacing: -2px;
 }
 
 h3 {
@@ -1198,12 +1200,12 @@ strong {
 }
 
 .font-size-36{
-  letter-spacing: -0.05em;
+  /*letter-spacing: -0.05em;*/
   font-size: 36px;
 }
 
 .font-size-26{
-  letter-spacing: -0.05em;
+  /*letter-spacing: -0.05em;*/
   font-size: 26px;
 }
 
