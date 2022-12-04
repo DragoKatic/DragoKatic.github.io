@@ -1301,8 +1301,6 @@ strong {
   display: block;
   width: 16px; 
   height: 16px;
-  margin-top: -20px;
-  margin-bottom: -20px;
   background: url(../images/spinner.gif) 0 0 no-repeat;
   background-size: 100%;
 }
@@ -1321,8 +1319,4 @@ strong {
   .img-spriter{
     margin: 3px auto 2px auto;
   }
-
-  
-  
-
 }
