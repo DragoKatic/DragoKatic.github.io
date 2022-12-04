@@ -1299,9 +1299,9 @@ strong {
 
 .img-spinner{
   display: block;
-   width: 16px; 
+  width: 16px; 
   height: 16px;
-  margin-top: -20px;
+  margin: -20px auto -20px auto;
   background: url(../images/spinner.gif) 0 0 no-repeat;
   background-size: 100%;
 }
