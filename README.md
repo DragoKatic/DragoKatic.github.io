@@ -1,4 +1,4 @@
 # dragokatic.github.io
-Drago Katić - 
-PHP Developer - 
-Personal portfolio
+Drago Katić | 
+PHP Developer | 
+Portfolio
