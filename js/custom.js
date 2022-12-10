@@ -31,7 +31,12 @@
   })(window.jQuery);
 
   // year in the footer
-document.getElementById("year").innerHTML = new Date().getFullYear();
+  var thisYear = new Date().getFullYear();
+document.getElementById("year").innerHTML = thisYear;
+//document.getElementById("copyright").innerHTML = 'name="copyright" content="Copyright © '. year . 'Drago Katić All rights reserved"';
+
+//<meta id="copyright" /> name="copyright" content="<span id="copyright"></span>"/>
+//<meta name="copyright" content="Copyright © <span id="year"></span> Drago Katić All rights reserved" />
 
 
 // Current URL: https://my-website.com/page_a
