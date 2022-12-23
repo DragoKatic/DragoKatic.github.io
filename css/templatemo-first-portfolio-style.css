@@ -1301,8 +1301,11 @@ strong {
   display: block;
   width: 16px; 
   height: 16px;
-  background: url(../images/spinner.gif) 0 0 no-repeat "Spinner *.gif animation";
+  background: url(../images/spinner.gif) 0 0 no-repeat;
   background-size: 100%;
+}
+.img-spinner::before {
+content:  "Spinner *.gif animation";
 }
 
 .img-spriter{
@@ -1311,8 +1314,12 @@ strong {
   height: 15px;
   margin: 6px auto 5px auto;
   vertical-align: sub;
-  background: url(../images/spriter.gif) 0 0 no-repeat "Spriter *.gif animation";
+  background: url(../images/spriter.gif) 0 0 no-repeat;
   /*background-size: 50%;*/
+}
+
+.img-spriter::before {
+content: "Spriter *.gif animation";
 }
 
 @media screen and (max-width: 480px) {
