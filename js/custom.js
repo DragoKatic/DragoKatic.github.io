@@ -33,7 +33,7 @@
 var thisYear = new Date().getFullYear();
 document.getElementById("year").innerHTML = thisYear;
 
-
+/*
 //History in browser
 var index = document.location.lastIndexOf("/");
 var filename = document.location.substr(index);
@@ -52,3 +52,4 @@ if(filename.indexOf("seo.html")>-1){
 if(filename.indexOf("websites.html")>-1){
    window.history.pushState('Drago Katić', 'Websites', 'https://dragokatic.github.io/websites.html');
 }
+*/
