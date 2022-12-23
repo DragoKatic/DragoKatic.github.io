@@ -1304,8 +1304,9 @@ strong {
   background: url(../images/spinner.gif) 0 0 no-repeat;
   background-size: 100%;
 }
+
 .img-spinner::before {
-content:  "Spinner *.gif animation";
+  content: "Spinner *.gif animation";
 }
 
 .img-spriter{
@@ -1319,8 +1320,9 @@ content:  "Spinner *.gif animation";
 }
 
 .img-spriter::before {
-content: "Spriter *.gif animation";
+  content: "Spriter *.gif animation";
 }
+
 
 @media screen and (max-width: 480px) {
   .img-spriter{
