@@ -1324,3 +1324,17 @@ strong {
 .margin-top--11{
   margin-top: -11px;
 }
+
+.section-background{
+  background: var(--section-bg-color);
+}
+
+.section-about-background{
+  background: var(--section-bg-color);
+  margin-bottom: -120px;
+}
+
+.section-z-index{
+  position: relative;
+  z-index: 2;
+}
