@@ -1306,7 +1306,7 @@ strong {
 }
 
 .img-spinner::before {
-  content: "Spinner *.gif animation";
+  content: "" / "Spinner *.gif animation";
 }
 
 .img-spriter{
@@ -1320,7 +1320,7 @@ strong {
 }
 
 .img-spriter::before {
-  content: "Spriter *.gif animation";
+  content: "" / "Spriter *.gif animation";
 }
 
 
