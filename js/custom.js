@@ -27,30 +27,28 @@
       }, 300);
   }
 });
-    
-  })(window.jQuery);
+ })(window.jQuery);
 
-  // year in the footer
-  var thisYear = new Date().getFullYear();
+//Year in the footer
+var thisYear = new Date().getFullYear();
 document.getElementById("year").innerHTML = thisYear;
-//document.getElementById("copyright").innerHTML = 'name="copyright" content="Copyright © '. year . 'Drago Katić All rights reserved"';
-
-//<meta id="copyright" /> name="copyright" content="<span id="copyright"></span>"/>
-//<meta name="copyright" content="Copyright © <span id="year"></span> Drago Katić All rights reserved" />
 
 
-// Current URL: https://my-website.com/page_a
-//const nextURL = 'https://dragokatic.github.io/home';
-//const nextTitle = 'Drago Katić - Portfolio';
-//const nextState = { additionalInformation: 'Updated the URL with JS' };
-
-// This will create a new entry in the browser's history, without reloading
-//window.history.pushState(nextState, nextTitle, nextURL);
-
-// This will replace the current entry in the browser's history, without reloading
-//window.history.replaceState(nextState, nextTitle, nextURL);
-
-//if(location.pathname=="/index.html") alert('hey!');
-//document.getElementById("alert").innerHTML = location.href;
-
-//window.history.pushState('object or string', 'Title', '/drago-katic.html');
+//History in browser
+var index = document.location.lastIndexOf("/");
+var filename = document.location.substr(index);
+if(filename.indexOf("index.html")>-1){
+   window.history.pushState('Drago Katić', 'Portfolio', 'https://dragokatic.github.io/');
+}
+if(filename.indexOf("papers.html")>-1){
+   window.history.pushState('Drago Katić', 'Papers', 'https://dragokatic.github.io/papers.html');
+}
+if(filename.indexOf("ecommerce.html")>-1){
+   window.history.pushState('Drago Katić', 'eCommerce', 'https://dragokatic.github.io/ecommerce.html');
+}
+if(filename.indexOf("seo.html")>-1){
+   window.history.pushState('Drago Katić', 'SEO', 'https://dragokatic.github.io/seo.html');
+}
+if(filename.indexOf("websites.html")>-1){
+   window.history.pushState('Drago Katić', 'Websites', 'https://dragokatic.github.io/websites.html');
+}
