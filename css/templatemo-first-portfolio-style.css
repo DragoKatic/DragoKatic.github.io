@@ -1319,10 +1319,7 @@ magnific-popup.css   */
   .services-thumb {
     padding: 16px 8px 32px 8px !important;
   }    
-.about-thumb {
-  padding-right: 0px;
-  padding-left: 0px;
-}
+
   .logo-image {
     position: absolute;
     right: 0%;
@@ -1340,6 +1337,10 @@ magnific-popup.css   */
 .navbar-brand, .navbar-brand:hover {
     margin-left: 0px !important;
   }
+  .about-thumb {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .hero-text {
   padding: 8px;
 }
