@@ -1298,7 +1298,7 @@ magnific-popup.css   */
 
   h2 {
     /*font-size: 28px;*/
-    font-size: 22px;
+    font-size: 24px;
   }
 
   h3 {
@@ -1382,24 +1382,32 @@ magnific-popup.css   */
     .img-spriter{
     margin: 3px auto 2px auto;
   }
-
-
+  .navbar .container {
+    padding: 8px 16px;
+  }
   .is-sticky .navbar-toggler .navbar-toggler-icon,
   .is-sticky .navbar-toggler .navbar-toggler-icon:before,
   .is-sticky .navbar-toggler .navbar-toggler-icon:after {
     background: var(--dark-color);
   }
-
-    .navbar-nav {
+  .navbar-nav {
     background: var(--dark-color);
-}
-
+  }
   .is-sticky .navbar-nav {
     background: var(--white-color);
   }
-
-  
-  
+  .header-drago-katic {
+    font-size: 24px;
+  }
+  .header-php-developer {
+    font-size: 22px;
+  }
+  .featured-numbers {
+    padding-left: 16px;
+  }
+  .featured-text {
+    padding-left: 16px;
+  }
 }
 
 /* 481px  <>  991px */
