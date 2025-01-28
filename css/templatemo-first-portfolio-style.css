@@ -1403,10 +1403,13 @@ magnific-popup.css   */
     font-size: 22px;
   }
   .featured-numbers {
-    padding-left: 16px;
+    padding-left: 8px;
   }
   .featured-text {
     padding-left: 16px;
+  }
+  .page-title-margin-top {
+    margin-top: 64px;
   }
 }
 
