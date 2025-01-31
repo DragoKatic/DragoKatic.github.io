@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /ecommerce.html
 Disallow: /seo.html
 Disallow: /websites.html
+Disallow: /test/
