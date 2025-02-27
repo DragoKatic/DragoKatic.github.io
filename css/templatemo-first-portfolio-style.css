@@ -378,8 +378,8 @@ strong {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .navbar-nav .nav-link {
@@ -1064,7 +1064,7 @@ font-size: var(--h1-font-size);
 }
 
 .menu-links-14{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .margin-0{
@@ -1270,6 +1270,15 @@ magnific-popup.css   */
   background: #0d1321;
   opacity: 0.8;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-text-websites {
+  font-weight: 600;
+  font-size: 14px;
+}
 
   /*--white-color:                  #ffffff;*/ /* White */
   /*--primary-color:                #ff911c;*/ /* Sunny Orange */
@@ -1345,11 +1354,11 @@ magnific-popup.css   */
   padding: 8px;
 }
 .navbar {
-  padding: 8px !important;
+  padding: 0px !important;
 }
 .telephone {
     width: 100%;
-    padding: 16px 0px 0px 0px;
+    padding: 16px 16px 0px 16px;
 }
 .telephone-link {
   width: 80%;
@@ -1383,7 +1392,8 @@ magnific-popup.css   */
     margin: 3px auto 2px auto;
   }
   .navbar .container {
-    padding: 8px 16px;
+    padding: 8px 0px;
+    margin: 8px;
   }
   .is-sticky .navbar-toggler .navbar-toggler-icon,
   .is-sticky .navbar-toggler .navbar-toggler-icon:before,
@@ -1410,6 +1420,12 @@ magnific-popup.css   */
   }
   .page-title-margin-top {
     margin-top: 64px;
+  }
+  .header-text {
+    padding-left: 16px;
+  }
+  .navbar-toggler {
+    margin-right: 16px;
   }
 }
 
